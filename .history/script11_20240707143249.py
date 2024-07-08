@@ -1,0 +1,12 @@
+
+
+info = ["suraj","sartape",7083646111,25,71]
+# type: ignore
+dictA = {
+    "firstname":"suraj",
+    "lastname":"sartape",
+    "age":25,
+    "rollNo":71,
+    "phoneNumber":7083646111
+}
+print(type(dictA))
