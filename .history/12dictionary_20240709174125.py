@@ -1,6 +1,3 @@
-# Date: 08-07-2024
-
-
 info = {
     "firstName":"suraj",
     "lastName":"sartape",
@@ -65,9 +62,9 @@ info = {
     "lastName":"sartape"
 }
 
-# info2 = info
+#info2 = info
 
-# info2["firstName"] = "sagar"
+#info2["firstName"] = "sagar"
 
 # print(info2)
 

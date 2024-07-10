@@ -1,6 +1,3 @@
-# Date: 08-07-2024
-
-
 info = {
     "firstName":"suraj",
     "lastName":"sartape",

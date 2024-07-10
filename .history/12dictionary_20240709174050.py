@@ -1,6 +1,3 @@
-# Date: 08-07-2024
-
-
 info = {
     "firstName":"suraj",
     "lastName":"sartape",
@@ -9,7 +6,7 @@ info = {
 }
 
 print(type(info))
-
+#
 print(info)
 # how to find particular property exist or not
 # in operator
