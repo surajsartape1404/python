@@ -1,0 +1,26 @@
+# Date= 15-07-2024
+
+tupleA = (11,22,33)
+# tupleA[0] = 44
+print(type(tupleA))
+print(tupleA)
+
+# Does tuple stores the value by index ?
+
+tupleB = 11,12,13
+print(type(tupleB))
+print(tupleB)
+
+print(12 in tupleB) 
+print(22 in tupleB)
+print(11 in tupleB)
+print(15 in tupleB)
+
+# loop using range
+
+tupleC = ("suraj","sagar","shubham","chinmay")
+print(tupleC)
+
+for x in range(len(tupleC)):
+    print(x)
+    print(tupleC[x])
