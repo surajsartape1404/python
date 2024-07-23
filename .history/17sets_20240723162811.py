@@ -106,19 +106,17 @@ setB = {44,55,66}
 setC = setA.union(setB)
 print(setC)
 
-#program7
 # intersection()
 setA = {11,22,33,55}
 setB = {33,44,55,66}
 setD = setA.intersection(setB)
 print(setD)
 
-#program8
 # intersectionUpdate()
 setA.intersection_update(setB) 
 print(setA)# {33,55}
 
-#program9
+
 # diffrence()
 setA = {11,22,33}
 setB = {44,55,66,33}
@@ -129,26 +127,23 @@ setB = {44,55,66,33}
 setA.difference_update(setB) # {11,22}
 print(setA)
 
-#program10
 #symmetric_difference()
 setA = {11,22,33}
 setB = {44,55,66,33}
 print(setA.symmetric_difference(setB))
 
-#program11
 setA = {11,22,33,66}
 setB = {44,55,66,33}
 setA.symmetric_difference_update(setB)
 print(setA)
 
-#program12
+
 setA = {11,22,33}
 setB = {11,22}
 
 print(setA.issuperset(setB))
 print(setB.issubset(setA))
 
-#program13
 # Sets
 setC = {11,33}
 setD = {44,22,11}

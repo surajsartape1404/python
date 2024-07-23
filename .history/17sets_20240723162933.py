@@ -148,7 +148,6 @@ setB = {11,22}
 print(setA.issuperset(setB))
 print(setB.issubset(setA))
 
-#program13
 # Sets
 setC = {11,33}
 setD = {44,22,11}

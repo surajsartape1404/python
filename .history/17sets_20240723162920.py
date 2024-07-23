@@ -141,14 +141,13 @@ setB = {44,55,66,33}
 setA.symmetric_difference_update(setB)
 print(setA)
 
-#program12
+
 setA = {11,22,33}
 setB = {11,22}
 
 print(setA.issuperset(setB))
 print(setB.issubset(setA))
 
-#program13
 # Sets
 setC = {11,33}
 setD = {44,22,11}
