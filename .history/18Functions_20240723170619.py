@@ -79,7 +79,6 @@ print(q8)
 # lambda - keyword
 # x , y - parameter 
 # x + y - return 
-
 add = lambda x,y:x+y
 print(add(12,3))
 
@@ -114,37 +113,4 @@ def addition(fn,x ,y):
 q10 = addition(add,12,3)
 print(q10)
 
-# function as a return type
 
-def subtraction():
-    return lambda x,y:x-y
-sub = subtraction()
-print(sub)
-# sub = lambda x,y:x-y
-e = sub(10,5)
-print(e)
-
-# default parameter
-
-def multiplication(x=4,y=5):
-    print(x*y)
-multiplication()
-multiplication(10,4)
-multiplication(5)
-
-# positional argument 
-def division(x,y):
-    print(x/y)
-division(25,5)
-division(y=25,x=75)
-
-
-def addAll(*args):
-    print(args)
-    print(type(args))
-    total =  0
-    for x in args:
-        total = total + x
-    return total
-q1 = addAll(5,4,6,3)
-print(q1)

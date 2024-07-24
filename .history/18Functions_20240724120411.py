@@ -128,23 +128,5 @@ print(e)
 
 def multiplication(x=4,y=5):
     print(x*y)
+multiplication(10,5)
 multiplication()
-multiplication(10,4)
-multiplication(5)
-
-# positional argument 
-def division(x,y):
-    print(x/y)
-division(25,5)
-division(y=25,x=75)
-
-
-def addAll(*args):
-    print(args)
-    print(type(args))
-    total =  0
-    for x in args:
-        total = total + x
-    return total
-q1 = addAll(5,4,6,3)
-print(q1)

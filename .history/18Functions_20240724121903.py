@@ -141,7 +141,7 @@ division(y=25,x=75)
 
 def addAll(*args):
     print(args)
-    print(type(args))
+    print(type of args)
     total =  0
     for x in args:
         total = total + x
