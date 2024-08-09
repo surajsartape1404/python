@@ -86,7 +86,7 @@ e = list(map(lambda x: 2024 - x,birthYear))
 print(e)
 
 #[expression : loop : condition(one condition)]
-#[ternary[multiple condition]:loop]
+#[ternary[multiple contion]:loop]
 print([2024 - x for x in birthYear])
 
 # program 2
@@ -122,5 +122,3 @@ print(total)
 
 from functools import reduce
 print(reduce(lambda acc,el:acc+el,numbersB))
-
-

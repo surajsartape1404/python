@@ -122,5 +122,3 @@ print(total)
 
 from functools import reduce
 print(reduce(lambda acc,el:acc+el,numbersB))
-
-

@@ -70,9 +70,7 @@ e7 = ["even" if x%2 == 0 else "odd" for x in numbers2]
 print(e7)
 
 
-       
-# map , filter , reduce 
-
+       # map 
 
 birthYear = [1989,1990,1992,1992]
 ages = []
@@ -86,7 +84,7 @@ e = list(map(lambda x: 2024 - x,birthYear))
 print(e)
 
 #[expression : loop : condition(one condition)]
-#[ternary[multiple condition]:loop]
+#[ternary[multiple contion]:loop]
 print([2024 - x for x in birthYear])
 
 # program 2
@@ -122,5 +120,3 @@ print(total)
 
 from functools import reduce
 print(reduce(lambda acc,el:acc+el,numbersB))
-
-
