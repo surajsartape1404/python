@@ -1,0 +1,1 @@
+# a[\w]* = a an ann o(r 
